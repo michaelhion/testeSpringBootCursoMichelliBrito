@@ -12,11 +12,11 @@
 
 <body>
 	<header>
-		<!-- As a link -->
-		<nav class="navbar navbar-light bg-light">
-			<a class="navbar-brand" href="#">MyCodeBlog</a>
-		</nav>
-	</header>
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1" style="font-weight: bold;">MyCodeBlog</span>
+            <a href="/newpost" class="btn btn-primary" role="button">Novo Post</a>
+        </nav>
+    </header>
 	<section>
 		<div class="container" style="width: 60%;padding-bottom: 30px;">
 			<div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post: ${posts}">
